@@ -23,22 +23,22 @@ function showPosition(position) {
 function showError(error) {
 	switch (error.code) {
 		case error.PERMISSION_DENIED:
-			x.innerHTML = "<br> User has denied request for geolocation";
+			x.innerHTML = "User has denied request for geolocation";
 			x.style.color = "aliceblue";
 			document.body.style.backgroundColor = "red";
 			break;
 		case error.POSITION_UNAVAILABLE:
-			x.innerHTML = "<br> Location information is unavailable";
+			x.innerHTML = "Location information is unavailable";
 			document.body.style.backgroundColor = "rgb(184, 184, 46)";
 			x.style.color = "red";
 			break;
 		case error.TIMEOUT:
-			x.innerHTML = "<br> Request Timeout";
+			x.innerHTML = "Request Timeout";
 			document.body.style.backgroundColor = "rgb(236, 156, 156)";
 			x.style.color = "white";
 			break;
 		case error.UNKNOWN_ERROR:
-			x.innerHTML = "<br> An Unknown Error Occurred";
+			x.innerHTML = "An Unknown Error Occurred";
 			document.body.style.backgroundColor = "yellow";
 			x.style.color = "black";
 			break;
