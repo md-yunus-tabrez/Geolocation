@@ -1,5 +1,4 @@
 var x = document.getElementById("result");
-var y = document.getElementsByClassName("error1")
 
 //Requesting & Checking for device location option 
 function getLocation() {
@@ -25,8 +24,8 @@ function showError(error) {
 	switch (error.code) {
 		case error.PERMISSION_DENIED:
 			x.innerHTML = "<br> User has denied request for geolocation";
-			document.body.style.backgroundColor = "red";
 			x.style.color = "aliceblue";
+			document.body.style.backgroundColor = "red";
 			break;
 		case error.POSITION_UNAVAILABLE:
 			x.innerHTML = "<br> Location information is unavailable";
