@@ -1,6 +1,6 @@
 ## `Geolocation:` 
-The HTML Geolocation API is used to locate a user's position.
-The HTML Geolocation API is used to get the geographical position of a user.
+The HTML Geolocation API is used to locate a user's position.\
+The HTML Geolocation API is used to get the geographical position of a user.\
 Since this can compromise privacy, the position is not available unless the user approves it.
 ##
 ### `main page`
