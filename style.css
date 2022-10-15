@@ -1,0 +1,14 @@
+button{
+    background: linear-gradient(-90deg, rgb(206, 66, 56), yellow, rgb(33, 33, 216));
+}
+
+button:hover {
+    background: linear-gradient(90deg, rgb(160, 7, 7), yellow, blue, rgb(124, 56, 1));
+  }
+
+
+body{
+    text-align: center;
+    width: auto;
+    font-weight: bold;
+}
